@@ -1,0 +1,67 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  border-color: purple;
+  background-color: purple;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section {
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  input {
+    border-color: purple;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  textarea {
+    border-color: purple;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  button[type="submit"] {
+    background-color: purple;
+    border-color: purple;
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+    margin-top: 5px;
+  }
+}
+
+li {
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: 0px;
+  }
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    margin: 0px;
+  }
+}
+
+div {
+  border-color: purple;
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+}
+
+.task-container {
+  border: 2px solid purple;
+  padding: 10px;
+  border-radius: 8px;
+  height: auto;
+  width: auto;
+}
